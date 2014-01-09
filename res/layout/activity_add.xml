@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        
+    tools:context=".AddActivity" >
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text=""
+        
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <!-- android:textColor="#33b5e5" -->
+    
+    
+    
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:fitsSystemWindows="true">
+        <!-- android:background="@color/black_overlay" -->
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#000000"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" >
+
+            <EditText
+                android:id="@+id/editDescriptionAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editPrivateNotesAdd"
+                android:layout_alignLeft="@+id/editTitleAdd"
+                android:layout_marginBottom="34dp"
+                android:background="#000000"
+                android:ems="10"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" />
+
+            <EditText
+                android:id="@+id/editTitleAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editDescriptionAdd"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="28dp"
+                android:background="#000000"
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="textLongMessage"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/AddButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="129dp"
+                android:text="Add POI info"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editPublicNotesAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="#000000"
+                android:ems="10"
+                android:hint="Public Notes"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" />
+
+            <EditText
+                android:id="@+id/editPrivateNotesAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editPublicNotesAdd"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="28dp"
+                android:background="#000000"
+                android:ems="10"
+                android:hint="Private Notes"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editTitleAdd"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="17dp"
+                android:layout_marginLeft="56dp"
+                android:text="Please insert your POI"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

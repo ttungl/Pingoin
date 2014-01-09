@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".Home" >
+
+
+    <fragment 	    		
+		android:id="@+id/map"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		class="com.google.android.gms.maps.SupportMapFragment"/>
+    
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSignUP"
+        android:layout_alignParentLeft="true"
+        android:onClick="signIn"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="192dp"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="LogOut" />
+
+</RelativeLayout>

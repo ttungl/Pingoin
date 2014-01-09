@@ -1,0 +1,193 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".UpdateActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text=""
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+
+            
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_overlay"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#000000"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/UpdateLabelPrivateNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editDescriptionUpdate"
+                android:layout_marginTop="19dp"
+                android:text="@string/PrivateNotes"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/UpdateLabelDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editTitleUpdate"
+                android:layout_marginTop="17dp"
+                android:text="@string/Str_Description"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editDescriptionUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/UpdateLabelDescription"
+                android:background="#000000"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" />
+
+            <TextView
+                android:id="@+id/UpdateLabelPublicNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editPrivateNotesUpdate"
+                android:layout_marginTop="20dp"
+                android:text="@string/PublicNotes"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editPrivateNotesUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/UpdateLabelPrivateNotes"
+                android:background="#000000"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" />
+
+            <EditText
+                android:id="@+id/editPublicNotesUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/UpdateLabelPublicNotes"
+                android:background="#000000"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="300dp" />
+
+            <TextView
+                android:id="@+id/UpdateLabelTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="19dp"
+                android:text="@string/Str_Title"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTitleUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/UpdateLabelTitle"
+                android:background="#000000"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:width="400dp" />
+
+            <Button
+                android:id="@+id/UpdateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editPublicNotesUpdate"
+                android:layout_marginTop="18dp"
+                android:text="Update"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -40,16 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--
-              Romas google map API key 
-        
-             <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAo71YA1kue9F4NAuYUw9d6z1a5iEYS19w" />
-        -->
-
-
         <!-- Tung google map API key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
@@ -84,7 +74,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Signing Up" >
 
-            <!-- @Romas: Don't use "android:theme="@style/FullscreenThem" here, it hurts the signing up activity. Tung fixed -->
+            <!-- @Romas: Don't use "android:theme="@style/FullscreenThem" here, it interferes with the signing up activity. Tung fixed -->
         </activity>
         <activity
             android:name="com.example.pingoin.PasswordChangeActivity"

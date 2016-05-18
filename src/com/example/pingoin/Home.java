@@ -1,8 +1,5 @@
 package com.example.pingoin;
 
-
-
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -72,12 +69,10 @@ public class Home extends FragmentActivity implements OnMapClickListener, OnMark
     // Hashing
     private String SHAHash;
 	public static int NO_OPTIONS=0;
-	
-	
+
 	// Timer
 	public int time = 0;
 	
-    	
     GoogleMap mMap;	
 	Marker mMarker;
 	
@@ -194,9 +189,6 @@ public class Home extends FragmentActivity implements OnMapClickListener, OnMark
 		        }
 
 		    };
-		    
-		    
-		    
 		    
 		    // Get GPS status 
 	        boolean enabled = service

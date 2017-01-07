@@ -1,4 +1,4 @@
 # pingoin
 Googlemap based android app
 #### Mobile Computing and Applications: 
-Created a Google maps android application. You can build your list of points of interest (POI) wherever you prefer in your map, the app will scan your map in preset range, if some POIs are within this range, they will be pop-up to show your saved interests in the area. Used Java, Eclipse for building the app, and used SVN for code management.
+Pingo'in is created by using a Google maps API. You can build your list of points of interest (POI) on the Googlemap, then the application will scan your map in the preset radius, if your POIs are within this radius, they will be displayed on your screen. Used Java, Eclipse for building the app, and used SVN for merging the code project.

@@ -12,7 +12,7 @@ Pingo'in [android app] is created by using a Google maps API. You can build your
 <img src="./pingoin_screenshoot/earth.png" width="158">
 ```
 Assume that two points of interest P1(Lat1,Long1) and P2(Lat2,Long2), the unit is converted 
-from the degree to radian as we are calculating the distance in the sphere (great-circle distance).
+from the degree to radian as we are calculating the distance in the sphere (great-circle distance) [1, 2].
 delta_Lat = Lat2-Lat1
 delta_Long = Long2-Long1
 Earth radius = 6371 km
@@ -25,6 +25,10 @@ C = 2*atan2(sqrt(A),sqrt(1-A));
 
 Distance = Earth radius * C ; if you want to get in kilometers; 
 [optional] Distance = Earth radius * C * 1000 ; if you want to get in meters;
+
+References:
+[1] http://www.movable-type.co.uk/scripts/latlong.html
+[2] http://en.wikipedia.org/wiki/Great-circle_distance
 ```
 
 ###Screenshots

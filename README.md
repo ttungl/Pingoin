@@ -7,7 +7,7 @@ Pingo'in [android app] is created by using a Google maps API. You can build your
 
 ###Screenshots
 <img src="./pingoin_screenshoot/login_signup.png" width="248">
-<img style="position:absolute; top:35px" align=middle src="./pingoin_screenshoot/right_arrow.png" width="58">
+<img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="58">
 <img src="./pingoin_screenshoot/signup.png" width="248">
 
 <img src="./pingoin_screenshoot/password_change.png" width="248">

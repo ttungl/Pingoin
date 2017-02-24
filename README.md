@@ -16,6 +16,7 @@ from the degree to radian as we are calculating the distance in the sphere (grea
 delta_Lat = Lat2-Lat1
 delta_Long = Long2-Long1
 Earth radius = 6371 km
+<img src="./pingoin_screenshoot/earth.png" width="158">
 
 // A is the square of half the chord length between the points.
 A = sin(delta_Lat/2)*sin(delta_Lat/2) + cos(Lat1)*cos(Lat2)*sin(delta_Lng/2)*sin(deltaLng/2); 

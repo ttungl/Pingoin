@@ -6,8 +6,8 @@
 Pingo'in [android app] is created by using a Google maps API. You can build your list of points of interest (POI) on the Googlemap, then the application will scan your map in the preset radius, if your POIs are within this radius, they will be displayed on your screen. Used Java, Eclipse for building the app, and used SVN for merging the code project.
 
 ###My Tasks
-* Authentication, Sign-in, Sign-up, Password-change.
-* Relative Distance: If the saved points of interest are within the preset radius of the current GPS location, all those points will be popped up. The positions are based on the longtitude and lattitude, getting from Google Map API. The distances from an object to other ones are on the sphere as are calculated as follows.
+* `Authentication`, `Sign-in`, `Sign-up`, `Password-change`.
+* `Relative Distance` from the current location: If the saved points of interest are within the preset radius of the current GPS location, all those points will be popped up. The positions are based on the longtitude and lattitude, getting from Google Map API. The distances from an object to other ones are on the sphere as are calculated as follows.
 
 <img src="./pingoin_screenshoot/earth.png" width="158">
 ```

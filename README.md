@@ -11,7 +11,8 @@ Pingo'in [android app] is created by using a Google maps API. You can build your
 
 
 ```
-Assume that two points of interest P1(Lat1,Long1) and P2(Lat2,Long2), the unit is converted from the degree to radian as we are calculating the distance in the sphere (great-circle distance).
+Assume that two points of interest P1(Lat1,Long1) and P2(Lat2,Long2), the unit is converted 
+from the degree to radian as we are calculating the distance in the sphere (great-circle distance).
 delta_Lat = Lat2-Lat1
 delta_Long = Long2-Long1
 Earth radius = 6371 km

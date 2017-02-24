@@ -7,13 +7,13 @@ Pingo'in [android app] is created by using a Google maps API. You can build your
 
 ###Screenshots
 <img src="./pingoin_screenshoot/login_signup.png" width="148">
-![](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/signup.png?raw=false =50x)
-![](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/password_change.png?raw=true =100x)
-![](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/login.png?raw=true =100x)
-![](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/loggedin.png?raw=true =100x)
-![alt tag](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/currentLocZoom.png?raw=true)
-![alt tag](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/add_Peter.png?raw=true)
-![alt tag](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/Peter.png?raw=true)
-![alt tag](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/add_Tom.png?raw=true)
-![alt tag](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/Peter_Tom.png?raw=true)
-![alt tag](https://github.com/ttungl/Pingoin/blob/master/pingoin_screenshoot/radius_CurrentRange.png?raw=true)
+<img src="./pingoin_screenshoot/signup.png" width="148">
+<img src="./pingoin_screenshoot/password_change.png" width="148">
+<img src="./pingoin_screenshoot/login.png" width="148">
+<img src="./pingoin_screenshoot/loggedin.png" width="148">
+<img src="./pingoin_screenshoot/currentLocZoom.png" width="148">
+<img src="./pingoin_screenshoot/add_Peter.png" width="148">
+<img src="./pingoin_screenshoot/Peter.png" width="148">
+<img src="./pingoin_screenshoot/add_Tom.png" width="148">
+<img src="./pingoin_screenshoot/Peter_Tom.png" width="148">
+<img src="./pingoin_screenshoot/radius_CurrentRange.png" width="148">

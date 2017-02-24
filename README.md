@@ -8,7 +8,9 @@ Pingo'in [android app] is created by using a Google maps API. You can build your
 ###My Tasks
 * Authentication, Sign-in, Sign-up, Password-change.
 * Relative Distance: If the saved points of interest are within the preset radius of the current GPS location, all those points will be popped up. The positions are based on the longtitude and lattitude, getting from Google Map API. The distances from an object to other ones are on the sphere as are calculated as follows.
-``
+
+
+```
 Assume that two points of interest P1(Lat1,Long1) and P2(Lat2,Long2), the unit is converted from the degree to radian as we are calculating the distance in the sphere (great-circle distance).
 delta_Lat = Lat2-Lat1
 delta_Long = Long2-Long1
@@ -22,7 +24,7 @@ C = 2*atan2(sqrt(A),sqrt(1-A));
 
 Distance = Earth radius * C ; if you want to get in kilometers; 
 [optional] Distance = Earth radius * C * 1000 ; if you want to get in meters;
-``
+```
 
 ###Screenshots
 <img src="./pingoin_screenshoot/login_signup.png" width="158">

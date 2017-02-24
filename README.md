@@ -57,3 +57,5 @@ References:
 <img src="./pingoin_screenshoot/Peter_Tom.png" width="158">
 <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
 <img src="./pingoin_screenshoot/radius_CurrentRange.png" width="158">
+
+Note: Database part has been done by my teammates. This part basically is a local database, using hashmap to store the users' information;

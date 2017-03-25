@@ -33,21 +33,7 @@ Pingo'in [android app] is created by using a Google maps API. You can build your
 ```
 
 ### Screenshots
-<img src="./pingoin_screenshoot/login_signup.png" width="158">
-<img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
-
-<img src="./pingoin_screenshoot/signup.png" width="158">
-<img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
-
-<img src="./pingoin_screenshoot/password_change.png" width="158">
-<img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
-
-<img src="./pingoin_screenshoot/login.png" width="158">
-<img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
-
-<img src="./pingoin_screenshoot/loggedin.png" width="158">
-<img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
-<img src="./pingoin_screenshoot/currentLocZoom.png" width="158">
+<img src="./pingoin_screenshoot/login_signup.png" width="158"><img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28"> <img src="./pingoin_screenshoot/signup.png" width="158"> <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28"> <img src="./pingoin_screenshoot/password_change.png" width="158"> <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28"> <img src="./pingoin_screenshoot/login.png" width="158"> <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28"> <img src="./pingoin_screenshoot/loggedin.png" width="158"> <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28"> <img src="./pingoin_screenshoot/currentLocZoom.png" width="158">
 <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
 <img src="./pingoin_screenshoot/add_Peter.png" width="158">
 <img style="position:absolute; top:35px" align=top src="./pingoin_screenshoot/right_arrow.png" width="28">
